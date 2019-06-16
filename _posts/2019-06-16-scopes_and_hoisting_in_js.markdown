@@ -1,11 +1,11 @@
 ---
 layout: post
 title:      "Scopes and Hoisting in JS"
-date:       2019-06-16 17:54:20 +0000
+date:       2019-06-16 13:54:21 -0400
 permalink:  scopes_and_hoisting_in_js
 ---
 
-This blog is a quick how-to guide for scoping and hoisting in JS.
+This blog is a quick how-to guide for scopes and hoisting in JS.
 
 Reminders:
 
