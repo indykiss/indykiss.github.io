@@ -1,15 +1,14 @@
 # Site settings
+author: Indira 
 title: Indy, the coder
 header-img: img/home-bg.png
 email: indirak@alumni.princeton.edu
-copyright_name: indykiss
+copyright_name: Indira 
 description: > # this means to ignore newlines until "baseurl:"
-  A dive into self-reproach
+  A dive into software engineering
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  indykiss
-learn_profile: indykiss
-email_username: indirak@alumni.princeton.edu
 
 # Build settings
 markdown: kramdown
