@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Core CS questions answered"
-date:       2019-09-20 19:00:53 +0000
+date:       2019-09-20 15:00:53 -0400
 permalink:  core_cs_questions_answered
 ---
 
@@ -17,7 +17,6 @@ permalink:  core_cs_questions_answered
 5. D is for dependence inversion principle. Abstractions are good. High level modules should not depend on low level modules. Both need to depend on abstractions.  
 
 
-
 *OOPS concepts: Main ideas behind Java's object oriented programming. Good to know for object orientation in general. 
 *
 
@@ -27,13 +26,10 @@ permalink:  core_cs_questions_answered
 4. Polymorphism. Ability of an object to take on multiple forms. 
 
 
-
 *What is an interface? And what is the difference between an interface and an abstract class? (Again, kinda Java.ie but good to know). *
 
 *  Essentially, an interface is an set of abstract methods that can't be implemented (meaning, by itself, you can't call on its methods to make an object or like do anything). Therefore, it can't be initiated. 
 An abstract class can have instance methods that can implement a default behavior. 
-
-
 
 
 
@@ -141,11 +137,39 @@ This is the ES6 format. If can't use, then do .push("end") or .unshift("start").
 
 
 
+*FizzBuzz. Write a program that prints out 1-100. For every mutiple of 3, print out Fizz. For every multiple of 5, print out Buzz. For every multiple of 3 and 5, print out FizzBuzz. 
+*
+<br></br>
+
+```
+Insert solution here
+```
+
+
+*Fibonacci Series. A series of numbers in which each number is the sum of the proceeding two numbers. The Fibonacci series goes like 1, 1, 2, 3, 5, 8 etc...  Write some code that continues this series. 
+*
+
+* Since we are relying on the previous sum of the past 2 results, we are going to use recursion. 
+
+
+```
+function fib(n) {
+
+if (n <2) {
+return n;
+}
+
+return fib(n-1) + fib(n-2);
+}
+```
+
+
+<br></br>
 
 Work in progress! Blog will be updated as I learn new things and learn about what things I need to learn about. 
 
 
-Thanks for reading, 
+Thanks for reading, </br>
 Indy
 
 
