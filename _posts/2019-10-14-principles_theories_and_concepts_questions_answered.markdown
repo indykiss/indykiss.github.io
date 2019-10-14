@@ -20,10 +20,10 @@ For this week's blog about common interview questions answered, I'm going to loo
 
 *Pros and cons of OOP vs functional programming?*
 * In OOP, its easy to understand basic objects and easy to interpret the meaning of method calls, but since OOP depends on shared state, sometimes by lumping together objects with behaviors on the same entity, that can lead to undesired behavior. 
-* In FP, since shared state and side-effects are avoided, there's fewer bugs and the code is simpler. But because of its simplicity, there's less readabiility because the code becomes more terse and less conrete. 
+* In FP, since shared state and side-effects are avoided, there's fewer bugs and the code is simpler. But because of its simplicity, there's less readability because the code becomes more terse and less conrete. 
 
 *What is asynchronous programming?*
-* In asynchronous programming, multiple things happen at the same time. So when a user starts an action, the program continues to run; an example being when a user clicks a button on a UI and the page is still rendered while the data requested gets fetched, which is helpful to performance on the server. 
+* In asynchronous programming, multiple things happen at the same time. So when a user starts an action, the program continues to run; an example being when a user clicks a button on a UI and the page is still rendered while the data requested gets fetched, which is helpful for performance.
 
 *SOLID principles of programming: Made to make systems easier to maintain and understand.*
 1. S is for single responsibility principle. Each segment of code (function, module, method, etc) is only responsibile for 1 task within the system. Helps with debugging. 
@@ -55,8 +55,8 @@ For this week's blog about common interview questions answered, I'm going to loo
 * An abstract class can have instance methods that can implement a default behavior. 
 
 
-</br>
+<br></br>
 
 Thanks for reading,
-</br>
+<br></br>
 Indy
