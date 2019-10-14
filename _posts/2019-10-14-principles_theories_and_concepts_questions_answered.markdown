@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Principles, theories and concepts questions answered"
-date:       2019-10-14 17:47:11 +0000
+date:       2019-10-14 13:47:12 -0400
 permalink:  principles_theories_and_concepts_questions_answered
 ---
 
@@ -10,7 +10,7 @@ permalink:  principles_theories_and_concepts_questions_answered
 For this week's blog about common interview questions answered, I'm going to look at a few of the common theories about programming.
 
 
-</br>
+<br></br>
 *What is object oriented programming?*
 * Object oriented programming focuses on the usage of objects to represent data and methods. Object oriented programming implements real-world entities like inheritance, encapsulation, polymorphism and abstraction using classes and objects. The main goal is to bind data and the functions that operate on them so that no other part of the code can access this data except that function. 
 * Inheritance is the concept that child classes inherit the properties that their parent classes have. Encapsulation is the thought that data should be wrapped in a container. Polymorphism is the practice of writing a single function that can handle different data types. Abstraction is the practice of hiding the implementation details and only showing functionality to the users. 
