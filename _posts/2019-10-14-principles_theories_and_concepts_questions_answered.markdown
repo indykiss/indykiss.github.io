@@ -6,6 +6,7 @@ permalink:  principles_theories_and_concepts_questions_answered
 ---
 
 
+As I deepen my basic knowledge of JavaScript and all things code, I’m going to deep dive into a Q & A series of blogs for core computer science concepts, theories and principles, JS concepts and algorithmic strategies. This is my second week of blogging this series. 
 
 For this week's blog about common interview questions answered, I'm going to look at a few of the common theories about programming.
 
