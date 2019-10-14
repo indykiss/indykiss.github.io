@@ -6,10 +6,21 @@ permalink:  core_cs_questions_answered
 ---
 
 
+As I deepen my basic knowledge of JavaScript and all things code, I'm going to deep dive into a Q & A series of blogs for core computer science concepts, theories and principles, JS concepts and algorithmic strategies. 
+
+This first blog will be a bit of a board of ideas that I'll flesh out more as the weeks go by. 
+
+Excited to learn more about the theory behind the code! 
+
+
+
 **Basics**
 
 *What is a data structure?*
 * A data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data. In Javascript, the primitive data types are numbers, strings, boolean, undefined and null. Objects like functions and arrays are non-primitive structures. Main difference is that primitive data structures are immutable while non-primitices are mutable. 
+ 
+*Why wrap code in functions?*
+* Wrapping code in functions allows for easy reference later on and allows us to keep code ensapulated, which is important to keep scope organized. 
  
 *What is a hash table?*
 * A hash table is a dictionary type data structure that maps keys to values. It allows people to look up a value based off its key. 
@@ -23,53 +34,29 @@ permalink:  core_cs_questions_answered
 *What is a queue*
 * A queue is a data linear data structure that follows a particular order in which the operations are performed. Essentially, like a queue of people trying to buy stuff; first in, first out. 
 
+*What's a priority queue?*
+* A queue, which instead of operating on a first come, first out order, operates on a priority basis. 
+
 *What is a heap?*
-* 
+* A tree-based data structure that effeciently implements a priority queue, first-in/first-out. 
 
 *What is a min and a max heap?*
-*
+* A max heap is when, in a heap, the parent nodes are higher than its children nodes. A min heap is the opposite, where children nodes are higher than its parent nodes. 
 
 *What is the difference between a heap and priority queue?*
-* 
-
-
-**Principles, theories and concepts** 
-
-*SOLID principles of programming: Made to make systems easier to maintain and understand. *
-1. S is for single responsibility principle. Each segment of code (function, module, method, etc) is only responsibile for 1 task within the system. Helps with debugging. 
-2. O is for open/ closed principle. Code should be open for extension but not for modification. 
-3. L is for the Liskov substitution principle. Objects in a program should be replaceable by instances of their subtyps without altering their correctness. 
-4. I is for interface segration principle. No client should be forced to rely on methods it does not use. 
-5. D is for dependence inversion principle. Abstractions are good. High level modules should not depend on low level modules. Both need to depend on abstractions.  
-
-
-*OOPS concepts: Main ideas behind Java's object oriented programming. Good to know for object orientation in general.*
-1. Abstraction: Vague.ifying. We use blueprints to hide details and only show relevant data. 
-2. Encapsulation. We hide data implementation by restricting access to public methods. 
-3. Inheritance. Anything the parent class has, the child class will also have. 
-4. Polymorphism. Ability of an object to take on multiple forms. 
-
-
-*What is an interface? And what is the difference between an interface and an abstract class? (Again, kinda Java.ie but good to know).*
-*  Essentially, an interface is an set of abstract methods that can't be implemented (meaning, by itself, you can't call on its methods to make an object or like do anything). Therefore, it can't be initiated. 
-* An abstract class can have instance methods that can implement a default behavior. 
+* Heaps are used to implement priority queues. A heap's shape as well as its order (min vs max) are its two main properties. 
 
 
 
 
 
-
-
-
-<br> </br>
+<br> </br><br></br>
 
 **Javascript conceptual Qs**
 
 
-*Like what even is Javascript?*
+*What even is Javascript?*
 * JS is a client-side and server-side object orientated language, that's understood by web browsers. It's data types are number, string, boolean, object and undefined. * 
-
-
 
 *Name some core JS built in functions. Aka JS string operations.*
 * .toString( ) = makes a thing a string
@@ -81,7 +68,8 @@ permalink:  core_cs_questions_answered
 * If we want to use RegEx, then .search( ) is best but no second parameter allowed 
 * .slice(start index, opt. second index not inclusive) extracts a part of a string and returns the extracted part in a new string
 
-
+*What is "this" in JS?* 
+This refers to the object that is currently being called
 
 *What are the JS value properties?*
 * Infinity
@@ -89,11 +77,9 @@ permalink:  core_cs_questions_answered
 * undefined
 * null 
 
-
 *What are the JS data types?*
 * Primitive (where typeof works): number, string, boolean, undefined 
 * Complex: function, object. Arrays, hashes and null are all objects. myFunc( ){ } is a function.
-
 
 
 *What is JSON? And what are some JSON methods?*
@@ -101,6 +87,22 @@ permalink:  core_cs_questions_answered
 * JS has two main methods to manipulate JSON data. There's .parse( ) that is used to parse a JSON string and returns an object. There's .stringify( ) that does the opposite; takes an object and converts it into a JSON string. 
 * So, we send data to the server using .stringify( ) but receive data that we want to use with .parse( ). 
 
+*What are some SQL basics?* 
+* Select, where, limit (top 5 for ex), order by (asc/ dec), group by, and, or, min, max, avg, sum, count. Joins combine rows from two or more tables
+
+
+*What are the enumerable operators in Javascript?*
+* map(), .each(), .find(), .search() and maybe .reduce()
+
+*How can you find the sum of the elements in an array? / The smallest element / the largest element?*
+* Math.min(rr), Math.max(arr), arr.reduce()
+
+
+*In JS, what's the diffference between const, let and var?*
+* The scope is the main difference. Var is globally scoped while let and const are block scoped.
+
+*What is the difference between double and triple equals in JS?*
+* Triple equal checks for strict equality, checking type and value. Double equals checks for loose equality, so just value not type.  
 
 *What are some JS global functions/ function properties?*
 * .eval( )  = Enables code that's in a string. Essentially console.log(eval("2 + 2")) = 4. Normally, that stuff is just "2+2"
@@ -138,7 +140,7 @@ console.log(roughScale('321', 2));
 
 
 
-<br></br>
+<br></br><br></br>
 
 **JavaScript algo type questions**<br></br>
 
@@ -175,7 +177,7 @@ return fib(n-1) + fib(n-2);
 
 </br>
 
-Work in progress! Blog will be updated as I learn new things and learn about what things I need to learn about. 
+Work in progress! 
 
 
 Thanks for reading, </br>
