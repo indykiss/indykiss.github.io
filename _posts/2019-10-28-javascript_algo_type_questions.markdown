@@ -12,7 +12,7 @@ Now I'll be going into a series that extends past these basics and goes a little
 
 I'm going to start with 2-3 easy algos a week and ramp up to harder one; from array manipulationg to recursive spiral matrices (which is apparently an easier algo, but for me, for right now, this is a tougher one). 
 
-
+<br>
 
 *How to add to the start and to the end of an array?*
 ```
@@ -62,9 +62,9 @@ return fib(n-1) + fib(n-2);
 
 
 
-Thanks for reading!
+Thanks for reading!<br>
 Indy 
 
 
-P.S.- Check out my new website! https://indirak.wixsite.com/indycode 
+P.S.- Check out my new website! [https://indirak.wixsite.com/indycode](http://) <br>
 Domain name still pending. Probably going to do a indy.info or something short and easy to type :) TBD
