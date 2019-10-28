@@ -50,6 +50,9 @@ fizzBuzz(16);
 * Since we are relying on the previous sum of the past 2 results, we are going to use a very simple version of recursion. It's important to keeep in mind for recursive solutions, you need to start off with a base case for when the recursion ends. We don't want an infinite loop! 
 
 ```
+
+Solution #1, with recursion maybe a little unnecessary performance/ O(n)-wise:
+
 function fib(n) {
 
 if (n <2) {
@@ -58,7 +61,26 @@ return n;
 
 return fib(n-1) + fib(n-2);
 }
+
+
+Solution #2, without recursion: 
+
+function fib(n) {
+  const result = [0, 1];
+
+   for (let i = 2; i <= n; i++) {
+     const a = result[i - 1];
+     const b = result[i - 2];
+
+     result.push(a + b);
+   }
+
+   return result[n];
+}
+
 ```
+
+
 
 
 
