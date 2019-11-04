@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "JavaScript algo type questions"
+title:      "JavaScript Algo Questions Pt. 1"
 date:       2019-10-28 10:53:09 -0400
 permalink:  javascript_algo_type_questions
 ---
@@ -88,5 +88,5 @@ Thanks for reading!<br>
 Indy 
 
 
-P.S.- Check out my new website! [https://indirak.wixsite.com/indycode](http://) <br>
+P.S.- Check out my new website! [https://indirak.wixsite.com/indycode](http://https://indirak.wixsite.com/indycode) <br>
 Domain name still pending. Probably going to do a indy.info or something short and easy to type :) TBD
