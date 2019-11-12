@@ -8,7 +8,7 @@ permalink:  how_would_i_make_airbnb_better
 
 Today, I was asked to do a really interesting product analysis, deep diving into a product’s features. 
 
-I picked Airbnb after reading a few articles about the dichotomy between their recent UNESCO site promotions (spend a night on the Great Wall of China? in the Paris Catacombs?) and the recent shooting at an Airbnb “party house” that ended with five deaths, which thankfully Airbnb is responding to by adding extra layers of regulation to prevent in the future. Will get back into that regulation thought towards the end of this blog article, but will begin with what Airbnb products are excelling in and in what they can do better. 
+I picked Airbnb after reading a few articles about the dichotomy between their recent UNESCO site promotions (spend a night on the Great Wall of China? in the Paris Catacombs?) and the recent shooting at an Airbnb “party house” that ended with five deaths, which thankfully Airbnb is responding to by adding extra layers of regulation to prevent in the future. Will get back into that regulation thought towards the end of this blog article, but will begin with what Airbnb products are excelling in and what they can do better. 
 
 
 ## What does the Airbnb application do well? 
