@@ -58,7 +58,7 @@ I'd love to dive more into best practices for this sort of problem solving, and 
 <br>
 Thanks for reading,<br>
 Indy <br>
-[https://indirak.wixsite.com/indycode](http://https://indirak.wixsite.com/indycode)<br><br>
+[https://indirak.wixsite.com/indycode](https://indirak.wixsite.com/indycode)<br><br>
 
 
 
