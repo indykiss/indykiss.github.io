@@ -33,17 +33,17 @@ By adding more interactivity into their Restaurants feature, Airbnb’s products
 ## What new feature could Airbnb implement and how would I integrate that new feature into the application? 
 
 
-There’s a market opportunity for Airbnb to add alternative venues for corporate offsites, ranging from vineyards to yoga studios to wellness centers.  At the moment, there’s really only two options for offsite meetings; hotel conference rooms or bars/restaurants. Many companies struggle with being able to organize out of the box meetings for their employees and clients. 
+There’s a market opportunity for Airbnb to add alternative venues for corporate offsites, ranging from vineyards to yoga studios to wellness centers.  At the moment, there’s really only two options for offsite meetings; hotel conference rooms or bars/restaurants. Many companies struggle to organize out of the box meetings for their employees and clients. 
 
 With the assumption of already having internal stakeholder buy-in, I’d conduct market research to see if customers (tiered by highly loyal, loyal, and non-users) would consider booking a corporate event through the platform, sending out surveys, conducting interviews, and building customer experience maps globally. I’d do the same for hosts for alternative spaces as well, to ensure that Airbnb can provide a supply if there is a demand. 
 
-If there is both supply and demand, I would create a new product that sits alongside their Stays, Experiences, Adventures, and Restaurants products, maybe called Offsites- for this example. 
+If there is both, I would create a new product that sits alongside their Stays, Experiences, Adventures, and Restaurants products, maybe called Offsites. 
 
-Airbnb is adding more regulation to their Stays product to build trust amongst its user after the most recent tragedy. For Offsites, I would implement a similar regulation practice, but requiring a bit more paperwork to ensure the safety of both users and hosts. Users would need to provide context around the event (what organization? any catering? number of people? description of event?) and possibly pay a small deposit. Spaces will be properly vetted to meet Airbnb standards (basics like wifi and cleanliness? open hours for users to visit? is location staffed?). 
+Airbnb is adding more regulation to their Stays product to build trust amongst its users after the most recent tragedy. For Offsites, I would implement a similar regulation practice, but requiring more paperwork to ensure the safety of both users and hosts. Users would need to provide context around the event (what organization? catering? number of people; their names? description of event?) and possibly pay a small deposit. Spaces will be properly vetted to meet Airbnb standards (basics like wifi and cleanliness? open hours for users to visit? is location staffed?). 
 
-To drive adoption, I’d consider reaching out to large corporations— the Googles, Amazons, Palantirs, and McKinseys of the world— to provide a few complementary offsites to gain some traction and maybe a few references. 
+To drive adoption, I’d consider reaching out to large corporations— the Googles, Amazons, Palantirs, and McKinseys of the world— to provide a few complimentary offsites to gain some news traction and maybe a few references. 
 
-A personal, yet organization-focused, product that offers alternative spaces would be the first of its kind. It would both create a new revenue stream and would make event organizers’ lives so much easier. 
+A personal, yet organization-focused product that offers alternative venues would be the first of its kind. It would both create a new revenue stream and would make event organizers’ lives easier. 
 
 
 
@@ -58,7 +58,7 @@ I'd love to dive more into best practices for this sort of problem solving, and 
 <br>
 Thanks for reading,<br>
 Indy <br>
-https://indirak.wixsite.com/indycode<br><br>
+[https://indirak.wixsite.com/indycode](http://https://indirak.wixsite.com/indycode)<br><br>
 
 
 
