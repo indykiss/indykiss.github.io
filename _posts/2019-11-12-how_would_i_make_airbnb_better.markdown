@@ -8,12 +8,12 @@ permalink:  how_would_i_make_airbnb_better
 
 Today, I was asked to do a really interesting product analysis, deep diving into a product’s features. 
 
-I picked Airbnb after reading a few articles about the dichotomy between their recent UNESCO site promotions (spend a night on the Great Wall of China? in the Paris Catacombs?) and the recent shooting at an Airbnb “party house” that ended with five deaths, which thankfully Airbnb is responding to by adding extra layers of regulation to prevent in the future. Will get back into that regulation thought towards the end of this blog article, but will begin with what Airbnb products are excelling in. 
+I picked Airbnb after reading a few articles about the dichotomy between their recent UNESCO site promotions (spend a night on the Great Wall of China? in the Paris Catacombs?) and the recent shooting at an Airbnb “party house” that ended with five deaths, which thankfully Airbnb is responding to by adding extra layers of regulation to prevent in the future. Will get back into that regulation thought towards the end of this blog article, but will begin with what Airbnb products are excelling in and in what they can do better. 
 
 
 ## What does the Airbnb application do well? 
 
-From a user’s perspective, Airbnb really excels at the clarity of its metadata structure for their partnering homes. Users can find the exact situation they’re looking for, whether that’s a treehouse in the middle of a jungle or a NYC studio in a high-rise. Airbnb’s product makes this data discovery extremely easy; allowing clear filtering by a variety of parameters, list view vs map view, elevating certain hosts to Superhosts, posting all reviews with clear rating system, etc. 
+From a user’s perspective, Airbnb excels at the clarity of its metadata structure for their partnering homes. Users can find the exact situation they’re looking for, whether that’s a treehouse in the middle of a jungle or a NYC studio in a high-rise. Airbnb’s product makes this data discovery extremely easy; allowing clear filtering by a variety of parameters, list view vs map view, elevating certain hosts to Superhosts, posting all reviews with clear rating system, etc. 
 
 The product utilizes modern technologies to make this search experience seamless and intuitive on the desktop and on mobile, across all browsers. In an ecosystem of Booking.coms and Pricelines, each with a suite of random pop-ups, it’s refreshing to see an ad-free, beautifully minimualistic experience that a user can expect to be authentic and honest while providing the search mechanisms they need. 
 
