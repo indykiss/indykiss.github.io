@@ -49,7 +49,7 @@ A personal, yet organization-focused product that offers alternative venues woul
 
 ## What I learned 
 
-This was a great thought experience, looking at a product, seeing what it does well and what it can improve on, then positing an innovative new feature that can add business value and impact peoples' lives. 
+This was a great thought experiment, looking at a product, seeing what it does well and what it can improve on, then positing an innovative new feature that can add business value and impact peoples' lives. 
 
 As this is the sort of project I'd like to work on in my next role, I need to think more about how to analytically approach a product, note its strengths and weaknesses, and possible areas of improvement-- and all the details involved in each phase. 
 
