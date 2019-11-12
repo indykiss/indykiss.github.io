@@ -26,7 +26,7 @@ Currently, the Restaurants line acts as a review source and allows a user to add
 
 If we take that second thought; nestling an experience into making a dinner reservation, the specs to add that to the Restaurants feature could be pretty simple, leveraged the existing framework from their Experiences product.
 
-By adding more interactivity into their Restaurants feature, Airbnb’s products as a whole can speak more to their goal of making users feel at home when they’re on vacation. 
+By adding more interactivity into their Restaurants feature, Airbnb’s products as a whole can speak more to their goal of making users feel at home everywhere.
 
 
 
