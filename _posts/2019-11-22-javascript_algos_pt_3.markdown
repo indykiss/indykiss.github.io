@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "JavaScript Algos Pt. 3"
-date:       2019-11-22 22:15:26 +0000
+date:       2019-11-22 17:15:27 -0500
 permalink:  javascript_algos_pt_3
 ---
 
@@ -23,7 +23,7 @@ function reverse(str) {
 
      let newStr = "";
 
-     for(var i = i; i <= str.length-1; i--) {
+     for(var i = str.length -1; i >= 0; i--) {
 		      newStr += str[i]
      }
 
