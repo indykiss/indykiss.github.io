@@ -17,7 +17,7 @@ The goal of this warm up algo is to reverse a string without using the array bui
 
 ```
 
-// reverse("abc") -> "cba"
+// reverse("abc") ==> "cba"
 
 function reverse(str) {
 
@@ -30,6 +30,8 @@ function reverse(str) {
      return newStr;
 
 }
+
+reverse("abc")
 ```
 
 ### More complicated algo! Finding the highest average gambler. 
@@ -39,6 +41,10 @@ We are given an input of nested arrays. Each nested array is a name and price (t
 This is the solution that I found during the interview: 
 
 ```
+
+// highestAvg([["John", 50], ["Max", 20], ["John", 50]]); ==> John
+
+
 function highestAvg(arr) {
   let newHash = {}; 
   let max = 0;
