@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "JavaScript Algo Questions Pt. 2"
-date:       2019-11-04 20:32:14 +0000
+title:      "JavaScript Algos Pt. 2"
+date:       2019-11-04 15:32:15 -0500
 permalink:  javascript_algo_questions_pt_2
 ---
 
