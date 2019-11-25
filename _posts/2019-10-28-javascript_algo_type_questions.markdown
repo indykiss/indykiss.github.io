@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "JavaScript Algo Questions Pt. 1"
+title:      "JavaScript Algos Pt. 1"
 date:       2019-10-28 10:53:09 -0400
 permalink:  javascript_algo_type_questions
 ---
