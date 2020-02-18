@@ -13,11 +13,10 @@ Let's check out data management techniques with SQL. <br><br>
 We can begin by making a database with "CREATE DATABASE name_db" and delete a database with "DROP DATABASE name_db." <br><br>Or make a table with "CREATE TABLE name_table(column_name1, column_name2, etc)." <br><br> Delete a table with "DROP TABLE table_name." <br>
 
 - Please note that the asterik sometimes disappears with the Learn blog system (not sure why; submitting a bug and will try to add in a fix!). <br>
-
+<br>
 
 ## What else can we do with SQL? 
 
-<br>
 ###  Select Data 
 
 Let's take a simple table and create queries to get the data we need. 
