@@ -15,11 +15,10 @@ We can begin by making a database with "CREATE DATABASE name_db" and delete a da
 - Please note that the asterik sometimes disappears with the Learn blog system (not sure why; submitting a bug and will try to add in a fix!). <br>
 
 
-### What else can we do with SQL? <br>
-
+## What else can we do with SQL? 
 
 <br>
-####  Select Data 
+###  Select Data 
 
 Let's take a simple table and create queries to get the data we need. 
 <br>
@@ -64,7 +63,7 @@ SELECT * FROM Pets ORDER BY Name DESC;<br>
 // Reverse alphabetical order<br>
 <br>
 <br>
-####  Add data
+###  Add data
 
 Let's take the same table and practice manipulating records in the table. We can add, track down bad data, update that bad data, or delete data. 
 
@@ -107,7 +106,7 @@ ALTER TABLE Pets DROP COLUMN Color; <br>
 // Drop that new column Color. <br>
 
 <br>
-####  Find all that match  
+###  Find all that match  
 
 
 Let's take the same table, minus the above alterations, and practice filtering by specific parameters. 
@@ -159,7 +158,7 @@ SELECT COUNT(ID) FROM Pets GROUP BY Species; <br>
 // Let's count all the animals, grouped by species. <br>
 
 <br>
-#### Join tables, AKA Combining tables
+### Join tables, AKA Combining tables
 
 Now we'll go over how to join tables together to become one table. This is really a staple of breaking down data silos to integrate across boundaries and make data analysis easier. 
 
