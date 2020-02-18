@@ -1,29 +1,31 @@
 ---
 layout: post
 title:      "SQL Refresh"
-date:       2019-11-11 19:13:08 +0000
+date:       2019-11-11 14:13:09 -0500
 permalink:  sql_refresh
 ---
 
 
 
-Let's check out data management techniques with SQL. <br>
+Let's check out data management techniques with SQL. <br><br>
 
 
-We can begin by making a database with "CREATE DATABASE name_db" and delete a database with "DROP DATABASE name_db." Or make a table with "CREATE TABEL name_table(column_name1, column_name2, etc)." Delete a table with "DROP TABLE table_name." <br>
+We can begin by making a database with "CREATE DATABASE name_db" and delete a database with "DROP DATABASE name_db." <br><br>Or make a table with "CREATE TABLE name_table(column_name1, column_name2, etc)." <br><br> Delete a table with "DROP TABLE table_name." <br>
 
-What can we do with SQL? <br>
+- Please note that the asterik sometimes disappears with the Learn blog system (not sure why; submitting a bug and will try to add in a fix!). <br>
 
-- Please note that the asterik sometimes disappears with the Learn blog system (not sure why; submitting a bug and will try to add in a fix!). The Select then (insert things suddenly italicized for no reason) means that there should be Select then an asterik. <br>
+
+### What else can we do with SQL? <br>
+
 
 <br>
-####  Selecting Data 
+####  Select Data 
 
 Let's take a simple table and create queries to get the data we need. 
 <br>
 
-**Pets table:<br>
-**
+**Pets table**:<br>
+
 
 |ID    | Name   |  Species   |  Age|
 | -------- | -------- | -------- |
@@ -34,7 +36,7 @@ Let's take a simple table and create queries to get the data we need.
 |5  |    Indy       |  Dog     |        1|
 |6 |     Meep    |  Dog    |          5|
 
-Well, we can select values based on whatever parameters we want:
+We can select values based on whatever parameters we want:
 
 SELECT * FROM Pets;<br>
 // All the records from pets<br>
@@ -62,9 +64,9 @@ SELECT * FROM Pets ORDER BY Name DESC;<br>
 // Reverse alphabetical order<br>
 <br>
 <br>
-####  Adding data
+####  Add data
 
-Let's take the same table and practice manupulating records in the table. We can add, track down bad data, update that bad data, or delete data. 
+Let's take the same table and practice manipulating records in the table. We can add, track down bad data, update that bad data, or delete data. 
 
 
 **Pets table:<br>**
@@ -105,7 +107,7 @@ ALTER TABLE Pets DROP COLUMN Color; <br>
 // Drop that new column Color. <br>
 
 <br>
-####  Finding all that match  
+####  Find all that match  
 
 
 Let's take the same table, minus the above alterations, and practice filtering by specific parameters. 
@@ -194,6 +196,6 @@ SELECT * FROM Pets INNER JOIN Wild_animal_friends ON Pets.ID = Wild_animal_frien
 
 <br>
 
-<br>Thanks for reading! That's it for now. I'll dive deeper into SQL joins next week.<br>
-Indy<br>
+<br>Thanks for reading! <br>
+Indy<br><br>
 
