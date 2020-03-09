@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "React core concepts"
-date:       2020-03-09 01:19:46 +0000
+date:       2020-03-08 21:19:47 -0400
 permalink:  react_core_concepts
 ---
 
@@ -12,7 +12,7 @@ I've been using my github to keep track of my personal progress in the pursuit o
 
 I've found using a repo useful in auditing the leetcodes I've done and saying to myself, "Ok, you've done like 12 linked lists algos and only two graphs. Go do some graphs." 
 
-My random-assortment-of-algos can be found here if interested: https://github.com/indykiss/DataStructures-Algos 
+My random-assortment-of-algos can be found here if interested: [https://github.com/indykiss/DataStructures-Algos ](https://github.com/indykiss/DataStructures-Algos)
 
 Generally, I like to pull particularly difficult (difficult for me, at least) algos out to blog about. 
 
@@ -21,20 +21,20 @@ But today I'm going to focus on some React core concepts. I love the things that
 So, time to bring it back to the basics! 
 
 
-#### What's React? Why is React used? 
+## What's React? Why is React used? 
 
 React is a JS library built by Facebook. It's used for creating seamless, user friendly UIs. React is a great framework for creating single page applications and for making interactive pages without needing to refresh the page. 
 
 It's one of the most popular frameworks in the industry because of its easy to build interactivity, its independent components that controls their own state, and its virtual dom functionality. 
 
 
-#### Important React factoids
+## Important React factoids
 
-###### JSX
+### JSX
 
 React uses JSX, which lets us incorporate JS in markup (basically mixes html and JS in one). This can be seen in the render() section of the component, which is what the user uses on the page. Render() is the lifecycle method that renders the component in the browser. 
 
-###### Create-react-app
+### Create-react-app
 
 Create-react-app is a great tool for building a basic app. Npm start starts up the built in dev server. You need to have node.js great for npm, which is needed for create-react-app. 
 
@@ -44,7 +44,7 @@ The structure of create-react-app:
 - Src: The source folder. Contains the Index.js. This is the entry point of the React library. This connects the App component with the index.html root.
 - App.js is the App component. Here we will import all of our custom components and add it into render. 
 
-###### State and props
+### State and props
 
 Each component handles its own state, but usually best for very simple apps to just have App component manage state that all components can access. 
 
@@ -101,14 +101,14 @@ Note: Each prop should have a key passed in that's the ID number. You'll see an 
 ``` <Friend key = {friend.id} name = {friend}> ```
 
 
-###### React hook 
+### React hook 
 
 Hooks are functions that let you “hook into” React state and lifecycle features from function components. Hooks don’t work inside classes — they let you use React without classes. 
 
 Hooks let us easily manipulate the state of our functional component without needing to convert them into class components.
 
 
-###### Functional vs class based components 
+### Functional vs class based components 
 
 A functional component is just a plain JavaScript function which accepts props as an argument and returns a React element. Can't use setState here.
 
@@ -117,9 +117,9 @@ A class component requires you to extend from React.Component to create a render
 Use functional components when the component doesn't need to handle its own state. Otherwise, class components have much more functionality. 
 
 
-### More questions
+## More questions
 
-#### What is a virtual DOM? Why is it called a virtual DOM? 
+### What is a virtual DOM? Why is it called a virtual DOM? 
 
 The virtual DOM (VDOM) is a programming concept where an **ideal**, or “virtual”, representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM. This process is called reconciliation.
 
@@ -128,7 +128,7 @@ In React, for every DOM object, there is a corresponding “virtual DOM object.�
 A virtual DOM lets us update only what's needed, not the entire page. 
 
 
-#### What is React's lifecycle? 
+### What is React's lifecycle? 
 
 The React lifecycle methods are the series of events that happen from the birth of a React component to its death.
 
@@ -149,12 +149,12 @@ Essentially: [http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/ ](ht
 
 
 
-#### How can you debug a React component? 
+### How can you debug a React component? 
 
 React developer tools for chrome is an add in that lets us debug easily. We can use it within the browser to see the component structure, state, props.  
 
 
-#### What's the difference between a React component and a container? 
+### What's the difference between a React component and a container? 
 
 A React component is essentailly a chunk of code that accomplishes a single responsibilty. 
 
@@ -163,7 +163,7 @@ For example, if we're building a todo app, we would have search as one component
 A container is basically a component that's connected to a Redux store. 
 
 
-#### What's state and what is Redux? 
+### What's state and what is Redux? 
 
 State is an object that determines how a component renders and behaves. Each component controls its own state. 
 
@@ -172,7 +172,7 @@ However, when we want to have an application-wide state management system, we us
 Redux is a JS library that helps us manage the data you display and how the app responds to user actions.
 
 
-#### What is an event handler in React? 
+### What is an event handler in React? 
 
 One great thing about React is the ability to add event handlers to take in input from the user. onChange, onSubmit, onClick are examples. 
 
@@ -259,8 +259,8 @@ sayYes = (id) => {
 ```
 
 
-###### Remember that React is just the V part of the MVC model of an application. 
-###### React needs to be connected to a backend for it to work. We can make HTTP requests using something like Axios, to fetch data. 
+### Remember that React is just the V part of the MVC model of an application. 
+### React needs to be connected to a backend for it to work. We can make HTTP requests using something like Axios, to fetch data. 
 
 <br/>
 Thanks for reading, <br/>
