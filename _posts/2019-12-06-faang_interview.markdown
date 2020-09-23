@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "FAANG Interview "
-date:       2019-12-06 17:44:21 +0000
+title:      "Interview "
+date:       2019-12-06 12:44:22 -0500
 permalink:  faang_interview
 ---
 
